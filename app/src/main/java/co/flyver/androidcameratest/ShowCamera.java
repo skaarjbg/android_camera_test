@@ -2,6 +2,7 @@ package co.flyver.androidcameratest;
 
 import android.content.Context;
 import android.hardware.Camera;
+import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
@@ -19,6 +20,7 @@ public class ShowCamera extends SurfaceView implements SurfaceHolder.Callback {
         theCamera = camera;
         holdMe = getHolder();
         holdMe.addCallback(this);
+        Log.d("CAMERA", "Camera count: " + Camera.getNumberOfCameras());
     }
 
     @Override

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="/media/Data/Test/AndroidCameraTest/libstreaming/build/intermediates/bundles/debug/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/media/Data/Test/AndroidCameraTest/libstreaming/src/androidTest/res" />
+        <source path="/media/Data/Test/AndroidCameraTest/libstreaming/build/generated/res/rs/test/debug" />
+        <source path="/media/Data/Test/AndroidCameraTest/libstreaming/build/generated/res/generated/test/debug" />
+    </dataSet>
+
+</merger>
